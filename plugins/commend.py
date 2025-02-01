@@ -28,10 +28,9 @@ async def start(client, message):
             InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await message.send_photo(
-            photo=(PICS),
-            caption=script.START_TXT.format(message.from_user.mention, BOT_USERNAME),
-            reply_markup=reply_markup
+        await message.send_photo(photo=PICS, caption=script.START_TXT.format(message.from_user.mention, BOT_USERNAME),
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
         )
         return
 
@@ -47,10 +46,9 @@ async def start(client, message):
                 InlineKeyboardButton('• ʜᴇʟᴘ •', callback_data='help'),
                 InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about')
             ]]
-            await message.send_photo(
-                photo=(PICS),
-                caption=script.START_TXT.format(message.from_user.mention, BOT_USERNAME),
-                reply_markup=InlineKeyboardMarkup(btn)
+            await message.reply_photo(photo=PICS, caption=script.START_TXT.format(message.from_user.mention, BOT_USERNAME),
+                reply_markup=InlineKeyboardMarkup(btn),
+                parse_mode=enums.ParseMode.HTML
             )
             return
 
