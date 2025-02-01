@@ -47,11 +47,24 @@ If you encounter any issues deploying the bot, feel free to seek assistance in o
 * `BIN_CHANNEL` : Create a new channel (private/public) and add that channel id in this field.
 * `LOG_CHANNEL` :  A channel to log the activities of bot. Make sure bot is an admin in the channel.
 * `AUTH_CHANNEL` - Your force sub channel with -100 `Optional`
-* `PICS` - Start message photo. `Optional`
-* `URL` : Your Server App Link With https:// and in last make sure one / is given.
+* `FQDN` : Your Server App Link With https:// and in last make sure one / is given.
 * `PORT` : The port that you want your webapp to be listened to. Defaults to `2626`
-* `BANNED_CHANNELS` : Put IDs of Banned Channels where bot will not work. You can add multiple IDs & separate with <kbd>Space</kbd>.
+<kbd>Space</kbd>.
 
+### COPY TO GROUP VAISHALIS
+```ADMINS=5977931010
+API_HASH=812529f879f064369255d1
+API_ID=21989588
+AUTH_CHANNEL=-100
+BIN_CHANNEL=-100
+BOT_TOKEN=6723R5wuZD2SewKmu6vRtfc
+BOT_USERNAME=AV_F2L_BOT
+DATABASE_NAME=cluster0
+DATABASE_URI=mongodan@cluster0.7nop1
+FQDN=av-file-to-link-koyeb.app
+LOG_CHANNEL=-100
+OWNER_USERNAME=BOT_OWNER26
+PORT=2626```
 </details>
 
 ### ALL COMMANDS
@@ -138,7 +151,6 @@ python3 bot.py
 
 - [𝙰𝙼𝙰𝙽 𝚅𝙸𝚂𝙷𝚆𝙰𝙺𝙰𝚁𝙼𝙰](https://telegram.me/BOT_OWNER26)
 - [Rᴀᴊ Vᴇʀᴍᴀ ⚝](https://telegram.me/Rjverma6435)
-- 
 ### BUY ME A COFFEE
 
 - [PHONE PE](https://envs.sh/Hgz.jpg)
