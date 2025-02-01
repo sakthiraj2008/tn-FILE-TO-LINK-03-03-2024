@@ -28,7 +28,7 @@ async def start(client, message):
             InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await message.reply_photo(
+        await message.send_photo(
             photo=(PICS),
             caption=script.START_TXT.format(message.from_user.mention, BOT_USERNAME),
             reply_markup=reply_markup
@@ -47,7 +47,7 @@ async def start(client, message):
                 InlineKeyboardButton('• ʜᴇʟᴘ •', callback_data='help'),
                 InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about')
             ]]
-            await message.reply_photo(
+            await message.send_photo(
                 photo=(PICS),
                 caption=script.START_TXT.format(message.from_user.mention, BOT_USERNAME),
                 reply_markup=InlineKeyboardMarkup(btn)
@@ -174,7 +174,7 @@ async def help(client, message):
        InlineKeyboardButton('• ᴄʟᴏsᴇ •', callback_data='close_data')
     ]]
     reply_markup = InlineKeyboardMarkup(btn)
-    await message.reply_text(
+    await message.send_text(
         text=script.HELP2_TXT,
         reply_markup=reply_markup
     )
@@ -190,7 +190,7 @@ async def about(client, message):
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     me2 = (await client.get_me()).mention
-    await message.reply_text(
+    await message.send_text(
         text=script.ABOUT_TXT.format(me2, me2, get_readable_time(time.time() - StartTime), __version__),
         reply_markup=reply_markup
     )
