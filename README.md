@@ -49,7 +49,7 @@ If you encounter any issues deploying the bot, feel free to seek assistance in o
 * `AUTH_CHANNEL` - Your force sub channel with -100 `Optional`
 * `FQDN` : Your Server App Link With https:// and in last make sure one / is given.
 * `PORT` : The port that you want your webapp to be listened to. Defaults to `2626`
-<kbd>Space</kbd>.
+<kbd>Space</kbd>.</details>
 
 ### COPY TO GROUP VAISHALIS
 ```ADMINS=5977931010
@@ -65,7 +65,7 @@ FQDN=av-file-to-link-koyeb.app
 LOG_CHANNEL=-100
 OWNER_USERNAME=BOT_OWNER26
 PORT=2626```
-</details>
+
 
 ### ALL COMMANDS
 
