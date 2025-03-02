@@ -115,7 +115,7 @@ restart - To restart the bot [FOR ADMINS USE ONLY]
 git clone https://github.com/Botsthe/AV-FILE-TO-LINK.git
 # Install Packages
 pip3 install -U -r requirements.txt
-Edit config.py with variables as given below then run bot
+Edit info.py with variables as given below then run bot
 python3 bot.py
 ```
 </details>
@@ -153,7 +153,7 @@ python3 bot.py
 ### CREDIT DEVELOPER
 
 - [𝙰𝙼𝙰𝙽 𝚅𝙸𝚂𝙷𝚆𝙰𝙺𝙰𝚁𝙼𝙰](https://telegram.me/BOT_OWNER26)
-- [Rᴀᴊ Vᴇʀᴍᴀ ⚝](https://telegram.me/Rjverma6435)
+
 ### BUY ME A COFFEE
 
 - [PHONE PE](https://envs.sh/Hgz.jpg)
