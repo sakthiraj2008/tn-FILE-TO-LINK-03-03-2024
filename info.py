@@ -9,35 +9,35 @@ id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
 SESSION = environ.get('SESSION', 'Webavbot')
-API_ID = int(environ.get('API_ID', '12345678'))
-API_HASH = environ.get('API_HASH', '812529feb49f578FHB5d1')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7091568:AAGpX2rVUnDHCYV-96GJVUV")
-BOT_USERNAME = environ.get("BOT_USERNAME", 'AV_F2L_BOT') # without @ 
+API_ID = int(environ.get('API_ID', '11472991'))
+API_HASH = environ.get('API_HASH', 'c78c50d54baf2173e8b3f75c359c0c72')
+BOT_TOKEN = environ.get('BOT_TOKEN', "7754306060:AAGBIJsYxqYe9vUPKuCsg5t7i5xS786ufWk")
+BOT_USERNAME = environ.get("BOT_USERNAME", 'file2link_gen_tn_BOT') # without @ 
 
 # Admins, Channels & Users
-BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-100')) # admin your channel in stream 
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-100')) # admin your channel in users log 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5977931010').split()] # 3567788, 678899, 5889467
-OWNER_USERNAME = environ.get("OWNER_USERNAME", 'BOT_OWNER26') # without @ 
+BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1002262171720')) # admin your channel in stream 
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1002318167392')) # admin your channel in users log 
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1430742022').split()] # 3567788, 678899, 5889467
+OWNER_USERNAME = environ.get("OWNER_USERNAME", 'coder_kakashi_bot') # without @ 
 
 # pics information
-PICS = environ.get('PICS', 'https://envs.sh/b6H.jpg')
+PICS = environ.get('PICS', 'https://envs.sh/Qrd.jpg')
 
 # channel link information
-CHANNEL = environ.get('CHANNEL', 'https://t.me/')
-SUPPORT = environ.get('SUPPORT', 'http://t.me/')
+CHANNEL = environ.get('CHANNEL', 'https://t.me/tn_botz')
+SUPPORT = environ.get('SUPPORT', 'https://t.me/+eBzYtdaY7Bc2ZDVl')
 
 #Dont Remove My Credit @AV_BOTz_UPDATE 
 #This Repo Is By @BOT_OWNER26 
 # For Any Kind Of Error Ask Us In Support Group @AV_SUPPORT_GROUP
 
 # ban information
-BANNED_CHANNELS = [int(banned_channels) if id_pattern.search(banned_channels) else banned_channels for banned_channels in environ.get('BANNED_CHANNELS', '').split()]   
-BAN_CHNL = [int(ban_chal) if id_pattern.search(ban_chal) else ban_chal for ban_chal in environ.get('BAN_CHNL', '').split()]
-BAN_ALERT = environ.get('BAN_ALERT' , '<b>ʏᴏᴜʀ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ.ᴄᴏɴᴛᴀᴄᴛ [ᴀᴠ ᴄʜᴀᴛ ᴏᴡɴᴇʀ](https://telegram.me/AV_OWNER_BOT) ᴛᴏ ʀᴇsᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇ!!</b>')
+BANNED_CHANNELS = [int(banned_channels) if id_pattern.search(banned_channels) else banned_channels for banned_channels in environ.get('BANNED_CHANNELS', '-1002262171720').split()]   
+BAN_CHNL = [int(ban_chal) if id_pattern.search(ban_chal) else ban_chal for ban_chal in environ.get('BAN_CHNL', '-1002262171720').split()]
+BAN_ALERT = environ.get('BAN_ALERT' , '<b>ʏᴏᴜʀ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ.ᴄᴏɴᴛᴀᴄᴛ [ᴀᴠ ᴄʜᴀᴛ ᴏᴡɴᴇʀ](https://telegram.me/coder_kakashi_BOT) ᴛᴏ ʀᴇsᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇ!!</b>')
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://KarthikMovies:KarthikUK007@cluster0.4l5byki.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 
 # fsub  information
